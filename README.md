@@ -19,10 +19,10 @@ Le joueur doit reproduire cette nouvelle séquence.
 Chaque fois que le joueur reproduit correctement la séquence, le jeu ajoute une nouvelle couleur.
 
 ## arborescence
-README.md - ce dossier
-index.html - page html qui contient le jeu
-script.js - script du jeu et intéraction
-style.css - mise en forme de la page
+- README.md - ce dossier
+- index.html - page html qui contient le jeu
+- script.js - script du jeu et intéraction
+- style.css - mise en forme de la page
 ## algortihme 
 * Au départ tous les boutons sont éteints.
 * On définit une séquence vide (tableau vide)
@@ -30,13 +30,22 @@ style.css - mise en forme de la page
 * Quand on commence (appui sur start)
  * L'ordinateru génére une séquence aléatoire de X étapes
   * sequence = X, X, X,....
-  * sequence = bleu, jaune, bleu, rouge ....
+  * sequence = entier aléatoire entre 0 et 3.
  * On lance la séquence 
   * Parcours le tableau de séquence 
-  * On allume la couleru correspondante poru chaque case pendant une durée courte ensuite on la ré éteint 
+  * On allume la couleur correspondante pour chaque case pendant une durée courte, ensuite une nouvelle couleur ou la même s'allume, ainsi de suite...
  * Tour de l'utilisateur 
   * On écoute les clics de l'utilisateur et a chaque fois on les compare avec la séquence de l'ordinateur
   * A chaque clic réussi (correspondance avec l'étape de la séquence), on observe l'étape suivante
   *si l'utilisateur se trompe --> Game Over
   *si l'utilisateur réussi -> étape suivante
+
+## Nouvelle compétance
+ 
+
+  - selecteur css
+  - utilisation de la console du navigateur
+ ### javascript :   
+  - changer le contenue css avec une fontion
+  - utilisation de nouvelle fonction 
   
